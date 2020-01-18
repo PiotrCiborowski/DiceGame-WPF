@@ -10,7 +10,7 @@ namespace ClassLibrary
 
         public int ThrowDice()
         {
-            return rnd.Next(1, 7);
+            return rnd.Next(1, 8);
         }
     }
 }

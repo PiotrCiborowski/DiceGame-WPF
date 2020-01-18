@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Akcjomat\\Source\\Repos\\PiotrCiborowski\\DiceGame-WPF\\ClassLibrary\\ClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Akcjomat\\Source\\Repos\\DiceGame-WPF\\ClassLibrary\\ClassLibrary.csproj",
       "projectName": "ClassLibrary",
-      "projectPath": "C:\\Users\\Akcjomat\\Source\\Repos\\PiotrCiborowski\\DiceGame-WPF\\ClassLibrary\\ClassLibrary.csproj",
+      "projectPath": "C:\\Users\\Akcjomat\\Source\\Repos\\DiceGame-WPF\\ClassLibrary\\ClassLibrary.csproj",
       "packagesPath": "C:\\Users\\Akcjomat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Akcjomat\\Source\\Repos\\PiotrCiborowski\\DiceGame-WPF\\ClassLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Akcjomat\\Source\\Repos\\DiceGame-WPF\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
