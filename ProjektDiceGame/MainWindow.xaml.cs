@@ -28,6 +28,7 @@ namespace ProjektDiceGame
         {
             InitializeComponent();
 
+<<<<<<< HEAD
             Money.Content = "100";
             BetMoney.Text = "";
 
@@ -60,10 +61,15 @@ namespace ProjektDiceGame
             BetMoney.Text = "";
 
             SetupEnemies();
+=======
+            Money.Text = "50";
+            BetMoney.Text = "";
+>>>>>>> 374500772276111782d8745afd290b28ea15b875
         }
 
         private void Higher_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
             Int32.TryParse(BetMoney.Text, out betMoney);
             Int32.TryParse(Money.Content.ToString(), out money);
 
@@ -94,10 +100,14 @@ namespace ProjektDiceGame
                 MessageBox.Show("You can't bet more money than you have!");
                 BetMoney.Text = money.ToString();
             }
+=======
+            MessageBox.Show(sender.ToString());
+>>>>>>> 374500772276111782d8745afd290b28ea15b875
         }
 
         private void Lower_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
             Int32.TryParse(BetMoney.Text, out betMoney);
             Int32.TryParse(Money.Content.ToString(), out money);
 
@@ -128,6 +138,9 @@ namespace ProjektDiceGame
                 MessageBox.Show("You can't bet more money than you have!");
                 BetMoney.Text = money.ToString();
             }
+=======
+            MessageBox.Show(sender.ToString());
+>>>>>>> 374500772276111782d8745afd290b28ea15b875
         }
 
         private static bool IsTextNumeric(string text)

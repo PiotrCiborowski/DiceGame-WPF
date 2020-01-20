@@ -8,11 +8,16 @@ namespace ClassLibrary
 {
     public class DiceManagement
     {
+<<<<<<< HEAD
         readonly static Random rnd = new Random();
+=======
+        readonly Random rnd = new Random();
+>>>>>>> 374500772276111782d8745afd290b28ea15b875
 
         public static int ThrowDie()
         {
             return rnd.Next(1, 7);
+<<<<<<< HEAD
         }
 
         public static int CheckDiceHigher(int enemyD1, int enemyD2, int myD1, int myD2)
@@ -45,6 +50,8 @@ namespace ClassLibrary
             {
                 return 0;
             }
+=======
+>>>>>>> 374500772276111782d8745afd290b28ea15b875
         }
     }
 }
