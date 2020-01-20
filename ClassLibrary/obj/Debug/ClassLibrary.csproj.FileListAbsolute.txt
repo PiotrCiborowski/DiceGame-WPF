@@ -1,0 +1,6 @@
+C:\Users\Akcjomat\source\repos\DiceGame-WPF\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Akcjomat\source\repos\DiceGame-WPF\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Akcjomat\source\repos\DiceGame-WPF\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Akcjomat\source\repos\DiceGame-WPF\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Akcjomat\source\repos\DiceGame-WPF\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Akcjomat\source\repos\DiceGame-WPF\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache

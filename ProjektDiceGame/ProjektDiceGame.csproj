@@ -104,8 +104,11 @@
     <Resource Include="images\D6.png" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj">
-      <Project>{8571c302-3483-4574-8473-22498e856d46}</Project>
+      <Project>{fd31a985-05c9-4a48-84d7-236e9980a259}</Project>
       <Name>ClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>
