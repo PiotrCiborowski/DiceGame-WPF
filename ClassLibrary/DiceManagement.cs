@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    class DiceManagement
+    public class DiceManagement
     {
-        Random rnd = new Random();
+        readonly Random rnd = new Random();
 
         public int ThrowDice()
         {
-            return rnd.Next(1, 8);
+            return rnd.Next(1, 7);
         }
     }
 }
