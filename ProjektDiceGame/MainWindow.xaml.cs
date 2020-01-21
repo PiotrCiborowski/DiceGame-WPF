@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -23,6 +25,7 @@ namespace ProjektDiceGame
     public partial class MainWindow : Window
     {
         int enemyD1, enemyD2, myD1, myD2, betMoney, money;
+        ResourceManager rm = new ResourceManager(typeof(Properties.Resources));
 
         public MainWindow()
         {
@@ -62,6 +65,18 @@ namespace ProjektDiceGame
             SetupEnemies();
         }
 
+        /*private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en");
+
+            Window.UpdateLayout();
+        }
+
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("pl-PL");
+        }*/
+
         private void Higher_Click(object sender, RoutedEventArgs e)
         {
             Int32.TryParse(BetMoney.Text, out betMoney);
@@ -72,26 +87,31 @@ namespace ProjektDiceGame
                 SetupMine();
                 if (DiceManagement.CheckDiceHigher(enemyD1, enemyD2, myD1, myD2) == -1)
                 {
-                    MessageBox.Show("You lost!");
+                    //MessageBox.Show("You lost!");
+                    MessageBox.Show(string.Format(rm.GetString("Loss")));
                     Money.Content = MoneyHandling.MakeMoney(betMoney, money, -1).ToString();
                 }
                 else if (DiceManagement.CheckDiceHigher(enemyD1, enemyD2, myD1, myD2) == 1)
                 {
-                    MessageBox.Show("You won!");
+                    //MessageBox.Show("You won!");
+                    MessageBox.Show(string.Format(rm.GetString("Win")));
                     Money.Content = MoneyHandling.MakeMoney(betMoney, money, 1).ToString();
                 }
                 else if (DiceManagement.CheckDiceHigher(enemyD1, enemyD2, myD1, myD2) == 0)
                 {
-                    MessageBox.Show("You tied!");
+                    //MessageBox.Show("You tied!");
+                    MessageBox.Show(string.Format(rm.GetString("Tie")));
                 }
 
                 ResetGame();
             }
             else if (MoneyHandling.CheckBetMoney(betMoney, money) == 0)
-                MessageBox.Show("Set amount of money you want to bet!");
+                //MessageBox.Show("Set amount of money you want to bet!");
+                MessageBox.Show(string.Format(rm.GetString("NoMoney")));
             else if (MoneyHandling.CheckBetMoney(betMoney, money) == -1)
             {
-                MessageBox.Show("You can't bet more money than you have!");
+                //MessageBox.Show("You can't bet more money than you have!");
+                MessageBox.Show(string.Format(rm.GetString("OverMoney")));
                 BetMoney.Text = money.ToString();
             }
         }
@@ -106,26 +126,31 @@ namespace ProjektDiceGame
                 SetupMine();
                 if (DiceManagement.CheckDiceLower(enemyD1, enemyD2, myD1, myD2) == -1)
                 {
-                    MessageBox.Show("You lost!");
+                    //MessageBox.Show("You lost!");
+                    MessageBox.Show(string.Format(rm.GetString("Loss")));
                     Money.Content = MoneyHandling.MakeMoney(betMoney, money, -1).ToString();
                 }
                 else if (DiceManagement.CheckDiceLower(enemyD1, enemyD2, myD1, myD2) == 1)
                 {
-                    MessageBox.Show("You won!");
+                    //MessageBox.Show("You won!");
+                    MessageBox.Show(string.Format(rm.GetString("Win")));
                     Money.Content = MoneyHandling.MakeMoney(betMoney, money, 1).ToString();
                 }
                 else if (DiceManagement.CheckDiceLower(enemyD1, enemyD2, myD1, myD2) == 0)
                 {
-                    MessageBox.Show("You tied!");
+                    //MessageBox.Show("You tied!");
+                    MessageBox.Show(string.Format(rm.GetString("Tie")));
                 }
 
                 ResetGame();
             }
             else if (MoneyHandling.CheckBetMoney(betMoney, money) == 0)
-                MessageBox.Show("Set amount of money you want to bet!");
+                //MessageBox.Show("Set amount of money you want to bet!");
+                MessageBox.Show(string.Format(rm.GetString("NoMoney")));
             else if (MoneyHandling.CheckBetMoney(betMoney, money) == -1)
             {
-                MessageBox.Show("You can't bet more money than you have!");
+                //MessageBox.Show("You can't bet more money than you have!");
+                MessageBox.Show(string.Format(rm.GetString("OverMoney")));
                 BetMoney.Text = money.ToString();
             }
         }

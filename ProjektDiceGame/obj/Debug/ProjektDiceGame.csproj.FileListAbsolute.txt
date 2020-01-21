@@ -16,3 +16,9 @@ C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDic
 C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDiceGame.csproj.CopyComplete
 C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDiceGame.exe
 C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDiceGame.pdb
+C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\bin\Debug\en\ProjektDiceGame.resources.dll
+C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\bin\Debug\pl-PL\ProjektDiceGame.resources.dll
+C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDiceGame.Properties.Resources.en.resources
+C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDiceGame.Properties.Resources.pl-PL.resources
+C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\en\ProjektDiceGame.resources.dll
+C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\pl-PL\ProjektDiceGame.resources.dll
