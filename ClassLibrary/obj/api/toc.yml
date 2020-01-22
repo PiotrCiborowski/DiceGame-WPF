@@ -1,0 +1,8 @@
+### YamlMime:TableOfContent
+- uid: ClassLibrary
+  name: ClassLibrary
+  items:
+  - uid: ClassLibrary.DiceManagement
+    name: DiceManagement
+  - uid: ClassLibrary.MoneyHandling
+    name: MoneyHandling

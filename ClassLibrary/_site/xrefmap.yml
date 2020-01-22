@@ -1,0 +1,86 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ClassLibrary
+  name: ClassLibrary
+  href: api/ClassLibrary.html
+  commentId: N:ClassLibrary
+  fullName: ClassLibrary
+  nameWithType: ClassLibrary
+- uid: ClassLibrary.DiceManagement
+  name: DiceManagement
+  href: api/ClassLibrary.DiceManagement.html
+  commentId: T:ClassLibrary.DiceManagement
+  fullName: ClassLibrary.DiceManagement
+  nameWithType: DiceManagement
+- uid: ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: CheckDiceHigher(Int32, Int32, Int32, Int32)
+  href: api/ClassLibrary.DiceManagement.html#ClassLibrary_DiceManagement_CheckDiceHigher_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: DiceManagement.CheckDiceHigher(Int32, Int32, Int32, Int32)
+- uid: ClassLibrary.DiceManagement.CheckDiceHigher*
+  name: CheckDiceHigher
+  href: api/ClassLibrary.DiceManagement.html#ClassLibrary_DiceManagement_CheckDiceHigher_
+  commentId: Overload:ClassLibrary.DiceManagement.CheckDiceHigher
+  isSpec: "True"
+  fullName: ClassLibrary.DiceManagement.CheckDiceHigher
+  nameWithType: DiceManagement.CheckDiceHigher
+- uid: ClassLibrary.DiceManagement.CheckDiceLower(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: CheckDiceLower(Int32, Int32, Int32, Int32)
+  href: api/ClassLibrary.DiceManagement.html#ClassLibrary_DiceManagement_CheckDiceLower_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:ClassLibrary.DiceManagement.CheckDiceLower(System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: ClassLibrary.DiceManagement.CheckDiceLower(System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: DiceManagement.CheckDiceLower(Int32, Int32, Int32, Int32)
+- uid: ClassLibrary.DiceManagement.CheckDiceLower*
+  name: CheckDiceLower
+  href: api/ClassLibrary.DiceManagement.html#ClassLibrary_DiceManagement_CheckDiceLower_
+  commentId: Overload:ClassLibrary.DiceManagement.CheckDiceLower
+  isSpec: "True"
+  fullName: ClassLibrary.DiceManagement.CheckDiceLower
+  nameWithType: DiceManagement.CheckDiceLower
+- uid: ClassLibrary.DiceManagement.ThrowDie
+  name: ThrowDie()
+  href: api/ClassLibrary.DiceManagement.html#ClassLibrary_DiceManagement_ThrowDie
+  commentId: M:ClassLibrary.DiceManagement.ThrowDie
+  fullName: ClassLibrary.DiceManagement.ThrowDie()
+  nameWithType: DiceManagement.ThrowDie()
+- uid: ClassLibrary.DiceManagement.ThrowDie*
+  name: ThrowDie
+  href: api/ClassLibrary.DiceManagement.html#ClassLibrary_DiceManagement_ThrowDie_
+  commentId: Overload:ClassLibrary.DiceManagement.ThrowDie
+  isSpec: "True"
+  fullName: ClassLibrary.DiceManagement.ThrowDie
+  nameWithType: DiceManagement.ThrowDie
+- uid: ClassLibrary.MoneyHandling
+  name: MoneyHandling
+  href: api/ClassLibrary.MoneyHandling.html
+  commentId: T:ClassLibrary.MoneyHandling
+  fullName: ClassLibrary.MoneyHandling
+  nameWithType: MoneyHandling
+- uid: ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32,System.Int32)
+  name: CheckBetMoney(Int32, Int32)
+  href: api/ClassLibrary.MoneyHandling.html#ClassLibrary_MoneyHandling_CheckBetMoney_System_Int32_System_Int32_
+  commentId: M:ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32,System.Int32)
+  fullName: ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32, System.Int32)
+  nameWithType: MoneyHandling.CheckBetMoney(Int32, Int32)
+- uid: ClassLibrary.MoneyHandling.CheckBetMoney*
+  name: CheckBetMoney
+  href: api/ClassLibrary.MoneyHandling.html#ClassLibrary_MoneyHandling_CheckBetMoney_
+  commentId: Overload:ClassLibrary.MoneyHandling.CheckBetMoney
+  isSpec: "True"
+  fullName: ClassLibrary.MoneyHandling.CheckBetMoney
+  nameWithType: MoneyHandling.CheckBetMoney
+- uid: ClassLibrary.MoneyHandling.MakeMoney(System.Int32,System.Int32,System.Int32)
+  name: MakeMoney(Int32, Int32, Int32)
+  href: api/ClassLibrary.MoneyHandling.html#ClassLibrary_MoneyHandling_MakeMoney_System_Int32_System_Int32_System_Int32_
+  commentId: M:ClassLibrary.MoneyHandling.MakeMoney(System.Int32,System.Int32,System.Int32)
+  fullName: ClassLibrary.MoneyHandling.MakeMoney(System.Int32, System.Int32, System.Int32)
+  nameWithType: MoneyHandling.MakeMoney(Int32, Int32, Int32)
+- uid: ClassLibrary.MoneyHandling.MakeMoney*
+  name: MakeMoney
+  href: api/ClassLibrary.MoneyHandling.html#ClassLibrary_MoneyHandling_MakeMoney_
+  commentId: Overload:ClassLibrary.MoneyHandling.MakeMoney
+  isSpec: "True"
+  fullName: ClassLibrary.MoneyHandling.MakeMoney
+  nameWithType: MoneyHandling.MakeMoney

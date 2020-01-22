@@ -1,0 +1,10 @@
+{
+  "ClassLibrary": "ClassLibrary.yml",
+  "ClassLibrary.DiceManagement": "ClassLibrary.DiceManagement.yml",
+  "ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32,System.Int32,System.Int32,System.Int32)": "ClassLibrary.DiceManagement.yml",
+  "ClassLibrary.DiceManagement.CheckDiceLower(System.Int32,System.Int32,System.Int32,System.Int32)": "ClassLibrary.DiceManagement.yml",
+  "ClassLibrary.DiceManagement.ThrowDie": "ClassLibrary.DiceManagement.yml",
+  "ClassLibrary.MoneyHandling": "ClassLibrary.MoneyHandling.yml",
+  "ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32,System.Int32)": "ClassLibrary.MoneyHandling.yml",
+  "ClassLibrary.MoneyHandling.MakeMoney(System.Int32,System.Int32,System.Int32)": "ClassLibrary.MoneyHandling.yml"
+}

@@ -1,0 +1,761 @@
+id: ClassLibrary
+language: CSharp
+name:
+  Default: ClassLibrary
+qualifiedName:
+  Default: ClassLibrary
+type: Assembly
+modifiers: {}
+items:
+- id: ClassLibrary
+  commentId: N:ClassLibrary
+  language: CSharp
+  name:
+    CSharp: ClassLibrary
+    VB: ClassLibrary
+  nameWithType:
+    CSharp: ClassLibrary
+    VB: ClassLibrary
+  qualifiedName:
+    CSharp: ClassLibrary
+    VB: ClassLibrary
+  type: Namespace
+  assemblies:
+  - ClassLibrary
+  modifiers: {}
+  items:
+  - id: ClassLibrary.DiceManagement
+    commentId: T:ClassLibrary.DiceManagement
+    language: CSharp
+    name:
+      CSharp: DiceManagement
+      VB: DiceManagement
+    nameWithType:
+      CSharp: DiceManagement
+      VB: DiceManagement
+    qualifiedName:
+      CSharp: ClassLibrary.DiceManagement
+      VB: ClassLibrary.DiceManagement
+    type: Class
+    assemblies:
+    - ClassLibrary
+    namespace: ClassLibrary
+    source:
+      remote:
+        path: ClassLibrary/DiceManagement.cs
+        branch: master
+        repo: https://github.com/PiotrCiborowski/DiceGame-WPF.git
+      id: DiceManagement
+      path: DiceManagement.cs
+      startLine: 8
+    syntax:
+      content:
+        CSharp: public class DiceManagement
+        VB: Public Class DiceManagement
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ClassLibrary.DiceManagement.ThrowDie
+      commentId: M:ClassLibrary.DiceManagement.ThrowDie
+      language: CSharp
+      name:
+        CSharp: ThrowDie()
+        VB: ThrowDie()
+      nameWithType:
+        CSharp: DiceManagement.ThrowDie()
+        VB: DiceManagement.ThrowDie()
+      qualifiedName:
+        CSharp: ClassLibrary.DiceManagement.ThrowDie()
+        VB: ClassLibrary.DiceManagement.ThrowDie()
+      type: Method
+      assemblies:
+      - ClassLibrary
+      namespace: ClassLibrary
+      source:
+        remote:
+          path: ClassLibrary/DiceManagement.cs
+          branch: master
+          repo: https://github.com/PiotrCiborowski/DiceGame-WPF.git
+        id: ThrowDie
+        path: DiceManagement.cs
+        startLine: 12
+      syntax:
+        content:
+          CSharp: public static int ThrowDie()
+          VB: Public Shared Function ThrowDie As Integer
+        return:
+          type: System.Int32
+      overload: ClassLibrary.DiceManagement.ThrowDie*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32,System.Int32,System.Int32,System.Int32)
+      commentId: M:ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32,System.Int32,System.Int32,System.Int32)
+      language: CSharp
+      name:
+        CSharp: CheckDiceHigher(Int32, Int32, Int32, Int32)
+        VB: CheckDiceHigher(Int32, Int32, Int32, Int32)
+      nameWithType:
+        CSharp: DiceManagement.CheckDiceHigher(Int32, Int32, Int32, Int32)
+        VB: DiceManagement.CheckDiceHigher(Int32, Int32, Int32, Int32)
+      qualifiedName:
+        CSharp: ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32, System.Int32, System.Int32, System.Int32)
+        VB: ClassLibrary.DiceManagement.CheckDiceHigher(System.Int32, System.Int32, System.Int32, System.Int32)
+      type: Method
+      assemblies:
+      - ClassLibrary
+      namespace: ClassLibrary
+      source:
+        remote:
+          path: ClassLibrary/DiceManagement.cs
+          branch: master
+          repo: https://github.com/PiotrCiborowski/DiceGame-WPF.git
+        id: CheckDiceHigher
+        path: DiceManagement.cs
+        startLine: 17
+      syntax:
+        content:
+          CSharp: public static int CheckDiceHigher(int enemyD1, int enemyD2, int myD1, int myD2)
+          VB: Public Shared Function CheckDiceHigher(enemyD1 As Integer, enemyD2 As Integer, myD1 As Integer, myD2 As Integer) As Integer
+        parameters:
+        - id: enemyD1
+          type: System.Int32
+        - id: enemyD2
+          type: System.Int32
+        - id: myD1
+          type: System.Int32
+        - id: myD2
+          type: System.Int32
+        return:
+          type: System.Int32
+      overload: ClassLibrary.DiceManagement.CheckDiceHigher*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: ClassLibrary.DiceManagement.CheckDiceLower(System.Int32,System.Int32,System.Int32,System.Int32)
+      commentId: M:ClassLibrary.DiceManagement.CheckDiceLower(System.Int32,System.Int32,System.Int32,System.Int32)
+      language: CSharp
+      name:
+        CSharp: CheckDiceLower(Int32, Int32, Int32, Int32)
+        VB: CheckDiceLower(Int32, Int32, Int32, Int32)
+      nameWithType:
+        CSharp: DiceManagement.CheckDiceLower(Int32, Int32, Int32, Int32)
+        VB: DiceManagement.CheckDiceLower(Int32, Int32, Int32, Int32)
+      qualifiedName:
+        CSharp: ClassLibrary.DiceManagement.CheckDiceLower(System.Int32, System.Int32, System.Int32, System.Int32)
+        VB: ClassLibrary.DiceManagement.CheckDiceLower(System.Int32, System.Int32, System.Int32, System.Int32)
+      type: Method
+      assemblies:
+      - ClassLibrary
+      namespace: ClassLibrary
+      source:
+        remote:
+          path: ClassLibrary/DiceManagement.cs
+          branch: master
+          repo: https://github.com/PiotrCiborowski/DiceGame-WPF.git
+        id: CheckDiceLower
+        path: DiceManagement.cs
+        startLine: 33
+      syntax:
+        content:
+          CSharp: public static int CheckDiceLower(int enemyD1, int enemyD2, int myD1, int myD2)
+          VB: Public Shared Function CheckDiceLower(enemyD1 As Integer, enemyD2 As Integer, myD1 As Integer, myD2 As Integer) As Integer
+        parameters:
+        - id: enemyD1
+          type: System.Int32
+        - id: enemyD2
+          type: System.Int32
+        - id: myD1
+          type: System.Int32
+        - id: myD2
+          type: System.Int32
+        return:
+          type: System.Int32
+      overload: ClassLibrary.DiceManagement.CheckDiceLower*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: ClassLibrary.MoneyHandling
+    commentId: T:ClassLibrary.MoneyHandling
+    language: CSharp
+    name:
+      CSharp: MoneyHandling
+      VB: MoneyHandling
+    nameWithType:
+      CSharp: MoneyHandling
+      VB: MoneyHandling
+    qualifiedName:
+      CSharp: ClassLibrary.MoneyHandling
+      VB: ClassLibrary.MoneyHandling
+    type: Class
+    assemblies:
+    - ClassLibrary
+    namespace: ClassLibrary
+    source:
+      remote:
+        path: ClassLibrary/MoneyHandling.cs
+        branch: master
+        repo: https://github.com/PiotrCiborowski/DiceGame-WPF.git
+      id: MoneyHandling
+      path: MoneyHandling.cs
+      startLine: 8
+    syntax:
+      content:
+        CSharp: public class MoneyHandling
+        VB: Public Class MoneyHandling
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32,System.Int32)
+      commentId: M:ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32,System.Int32)
+      language: CSharp
+      name:
+        CSharp: CheckBetMoney(Int32, Int32)
+        VB: CheckBetMoney(Int32, Int32)
+      nameWithType:
+        CSharp: MoneyHandling.CheckBetMoney(Int32, Int32)
+        VB: MoneyHandling.CheckBetMoney(Int32, Int32)
+      qualifiedName:
+        CSharp: ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32, System.Int32)
+        VB: ClassLibrary.MoneyHandling.CheckBetMoney(System.Int32, System.Int32)
+      type: Method
+      assemblies:
+      - ClassLibrary
+      namespace: ClassLibrary
+      source:
+        remote:
+          path: ClassLibrary/MoneyHandling.cs
+          branch: master
+          repo: https://github.com/PiotrCiborowski/DiceGame-WPF.git
+        id: CheckBetMoney
+        path: MoneyHandling.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public static int CheckBetMoney(int betMoney, int money)
+          VB: Public Shared Function CheckBetMoney(betMoney As Integer, money As Integer) As Integer
+        parameters:
+        - id: betMoney
+          type: System.Int32
+        - id: money
+          type: System.Int32
+        return:
+          type: System.Int32
+      overload: ClassLibrary.MoneyHandling.CheckBetMoney*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: ClassLibrary.MoneyHandling.MakeMoney(System.Int32,System.Int32,System.Int32)
+      commentId: M:ClassLibrary.MoneyHandling.MakeMoney(System.Int32,System.Int32,System.Int32)
+      language: CSharp
+      name:
+        CSharp: MakeMoney(Int32, Int32, Int32)
+        VB: MakeMoney(Int32, Int32, Int32)
+      nameWithType:
+        CSharp: MoneyHandling.MakeMoney(Int32, Int32, Int32)
+        VB: MoneyHandling.MakeMoney(Int32, Int32, Int32)
+      qualifiedName:
+        CSharp: ClassLibrary.MoneyHandling.MakeMoney(System.Int32, System.Int32, System.Int32)
+        VB: ClassLibrary.MoneyHandling.MakeMoney(System.Int32, System.Int32, System.Int32)
+      type: Method
+      assemblies:
+      - ClassLibrary
+      namespace: ClassLibrary
+      source:
+        remote:
+          path: ClassLibrary/MoneyHandling.cs
+          branch: master
+          repo: https://github.com/PiotrCiborowski/DiceGame-WPF.git
+        id: MakeMoney
+        path: MoneyHandling.cs
+        startLine: 20
+      syntax:
+        content:
+          CSharp: public static int MakeMoney(int betMoney, int money, int operation)
+          VB: Public Shared Function MakeMoney(betMoney As Integer, money As Integer, operation As Integer) As Integer
+        parameters:
+        - id: betMoney
+          type: System.Int32
+        - id: money
+          type: System.Int32
+        - id: operation
+          type: System.Int32
+        return:
+          type: System.Int32
+      overload: ClassLibrary.MoneyHandling.MakeMoney*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  ClassLibrary.DiceManagement.ThrowDie*:
+    name:
+      CSharp:
+      - id: ClassLibrary.DiceManagement.ThrowDie*
+        name: ThrowDie
+        nameWithType: DiceManagement.ThrowDie
+        qualifiedName: ClassLibrary.DiceManagement.ThrowDie
+      VB:
+      - id: ClassLibrary.DiceManagement.ThrowDie*
+        name: ThrowDie
+        nameWithType: DiceManagement.ThrowDie
+        qualifiedName: ClassLibrary.DiceManagement.ThrowDie
+    isDefinition: true
+    commentId: Overload:ClassLibrary.DiceManagement.ThrowDie
+  ClassLibrary.DiceManagement.CheckDiceHigher*:
+    name:
+      CSharp:
+      - id: ClassLibrary.DiceManagement.CheckDiceHigher*
+        name: CheckDiceHigher
+        nameWithType: DiceManagement.CheckDiceHigher
+        qualifiedName: ClassLibrary.DiceManagement.CheckDiceHigher
+      VB:
+      - id: ClassLibrary.DiceManagement.CheckDiceHigher*
+        name: CheckDiceHigher
+        nameWithType: DiceManagement.CheckDiceHigher
+        qualifiedName: ClassLibrary.DiceManagement.CheckDiceHigher
+    isDefinition: true
+    commentId: Overload:ClassLibrary.DiceManagement.CheckDiceHigher
+  ClassLibrary.DiceManagement.CheckDiceLower*:
+    name:
+      CSharp:
+      - id: ClassLibrary.DiceManagement.CheckDiceLower*
+        name: CheckDiceLower
+        nameWithType: DiceManagement.CheckDiceLower
+        qualifiedName: ClassLibrary.DiceManagement.CheckDiceLower
+      VB:
+      - id: ClassLibrary.DiceManagement.CheckDiceLower*
+        name: CheckDiceLower
+        nameWithType: DiceManagement.CheckDiceLower
+        qualifiedName: ClassLibrary.DiceManagement.CheckDiceLower
+    isDefinition: true
+    commentId: Overload:ClassLibrary.DiceManagement.CheckDiceLower
+  ClassLibrary.DiceManagement:
+    name:
+      CSharp:
+      - id: ClassLibrary.DiceManagement
+        name: DiceManagement
+        nameWithType: DiceManagement
+        qualifiedName: ClassLibrary.DiceManagement
+      VB:
+      - id: ClassLibrary.DiceManagement
+        name: DiceManagement
+        nameWithType: DiceManagement
+        qualifiedName: ClassLibrary.DiceManagement
+    isDefinition: true
+    commentId: T:ClassLibrary.DiceManagement
+  ClassLibrary.MoneyHandling.CheckBetMoney*:
+    name:
+      CSharp:
+      - id: ClassLibrary.MoneyHandling.CheckBetMoney*
+        name: CheckBetMoney
+        nameWithType: MoneyHandling.CheckBetMoney
+        qualifiedName: ClassLibrary.MoneyHandling.CheckBetMoney
+      VB:
+      - id: ClassLibrary.MoneyHandling.CheckBetMoney*
+        name: CheckBetMoney
+        nameWithType: MoneyHandling.CheckBetMoney
+        qualifiedName: ClassLibrary.MoneyHandling.CheckBetMoney
+    isDefinition: true
+    commentId: Overload:ClassLibrary.MoneyHandling.CheckBetMoney
+  ClassLibrary.MoneyHandling.MakeMoney*:
+    name:
+      CSharp:
+      - id: ClassLibrary.MoneyHandling.MakeMoney*
+        name: MakeMoney
+        nameWithType: MoneyHandling.MakeMoney
+        qualifiedName: ClassLibrary.MoneyHandling.MakeMoney
+      VB:
+      - id: ClassLibrary.MoneyHandling.MakeMoney*
+        name: MakeMoney
+        nameWithType: MoneyHandling.MakeMoney
+        qualifiedName: ClassLibrary.MoneyHandling.MakeMoney
+    isDefinition: true
+    commentId: Overload:ClassLibrary.MoneyHandling.MakeMoney
+  ClassLibrary.MoneyHandling:
+    name:
+      CSharp:
+      - id: ClassLibrary.MoneyHandling
+        name: MoneyHandling
+        nameWithType: MoneyHandling
+        qualifiedName: ClassLibrary.MoneyHandling
+      VB:
+      - id: ClassLibrary.MoneyHandling
+        name: MoneyHandling
+        nameWithType: MoneyHandling
+        qualifiedName: ClassLibrary.MoneyHandling
+    isDefinition: true
+    commentId: T:ClassLibrary.MoneyHandling
+  ClassLibrary:
+    name:
+      CSharp:
+      - name: ClassLibrary
+        nameWithType: ClassLibrary
+        qualifiedName: ClassLibrary
+      VB:
+      - name: ClassLibrary
+        nameWithType: ClassLibrary
+        qualifiedName: ClassLibrary
+    isDefinition: true
+    commentId: N:ClassLibrary

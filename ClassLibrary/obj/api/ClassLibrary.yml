@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: ClassLibrary
+  commentId: N:ClassLibrary
+  id: ClassLibrary
+  children:
+  - ClassLibrary.DiceManagement
+  - ClassLibrary.MoneyHandling
+  langs:
+  - csharp
+  - vb
+  name: ClassLibrary
+  nameWithType: ClassLibrary
+  fullName: ClassLibrary
+  type: Namespace
+  assemblies:
+  - ClassLibrary
+references:
+- uid: ClassLibrary.DiceManagement
+  commentId: T:ClassLibrary.DiceManagement
+  name: DiceManagement
+  nameWithType: DiceManagement
+  fullName: ClassLibrary.DiceManagement
+- uid: ClassLibrary.MoneyHandling
+  commentId: T:ClassLibrary.MoneyHandling
+  name: MoneyHandling
+  nameWithType: MoneyHandling
+  fullName: ClassLibrary.MoneyHandling
