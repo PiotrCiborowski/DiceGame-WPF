@@ -118,48 +118,48 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Higher" xml:space="preserve">
-    <value>Higher</value>
+    <value>Wyżej</value>
   </data>
   <data name="Loss" xml:space="preserve">
-    <value>You lost this round!</value>
+    <value>Przegrałeś tę rundę!</value>
   </data>
   <data name="LossGame" xml:space="preserve">
-    <value>You lost the game!</value>
+    <value>Przegrałeś grę!</value>
   </data>
   <data name="Lower" xml:space="preserve">
-    <value>Lower</value>
+    <value>Niżej</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Name</value>
+    <value>Imię</value>
   </data>
   <data name="NameTyper" xml:space="preserve">
-    <value>Type your name</value>
+    <value>Podaj swoje imię</value>
   </data>
   <data name="NoMoney" xml:space="preserve">
-    <value>Set amount of money you want to bet!</value>
+    <value>Ustaw wartość pieniędzy jaką chcesz postawić!</value>
   </data>
   <data name="OverMoney" xml:space="preserve">
-    <value>You can't bet more money than you have!</value>
+    <value>Nie możesz postawić więcej pieniędzy niż posiadasz!</value>
   </data>
   <data name="Result" xml:space="preserve">
-    <value>Result</value>
+    <value>Wynik</value>
   </data>
   <data name="Submit" xml:space="preserve">
-    <value>Submit</value>
+    <value>Zatwierdź</value>
   </data>
   <data name="Tie" xml:space="preserve">
-    <value>You tied this round!</value>
+    <value>Zremisowałeś te rundę!</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Dice Game</value>
+    <value>Gra w kości</value>
   </data>
   <data name="TypeName" xml:space="preserve">
-    <value>Please, type your name:</value>
+    <value>Proszę, podaj swoje imię:</value>
   </data>
   <data name="Win" xml:space="preserve">
-    <value>You won this round!</value>
+    <value>Wygrałeś tę rundę!</value>
   </data>
   <data name="WinGame" xml:space="preserve">
-    <value>You won the game!</value>
+    <value>Wygrałeś grę!</value>
   </data>
 </root>

@@ -1,36 +1,46 @@
-﻿<Window x:Class="ProjektDiceGame.MainWindow"
+﻿<Window x:Name="Window" x:Class="ProjektDiceGame.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjektDiceGame"
+        xmlns:p="clr-namespace:ProjektDiceGame.Properties"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800" MinWidth="800" MinHeight="600">
-    <Grid Width="800" Height="550" MinWidth="800" MinHeight="550">
-        <Image x:Name="EnemyDie1" Height="99" Margin="275,10,418,410" VerticalAlignment="Top" Width="99" MinWidth="99" MinHeight="99">
+        Title="{x:Static p:Resources.Title}" Height="600" Width="800" MinWidth="800" MinHeight="600">
+    <Grid x:Name="Grid" Width="800" Height="550" MinWidth="800" MinHeight="550">
+        <Image x:Name="EnemyDie1" Height="99" Margin="135,10,566,0" VerticalAlignment="Top" Width="99" MinWidth="99" MinHeight="99">
             <Image.Source>
                 <BitmapImage UriSource="images/D0.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="EnemyDie2" Height="99" Margin="418,10,275,410" VerticalAlignment="Top" Width="99">
+        <Image x:Name="EnemyDie2" Height="99" Margin="278,10,423,0" VerticalAlignment="Top" Width="99">
             <Image.Source>
                 <BitmapImage UriSource="images/D0.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="MyDie1" Height="99" Margin="275,150,418,270" VerticalAlignment="Top" Width="99">
+        <Image x:Name="MyDie1" Height="99" Margin="135,150,566,0" VerticalAlignment="Top" Width="99">
             <Image.Source>
                 <BitmapImage UriSource="images/D0.png"/>
             </Image.Source>
         </Image>
-        <Image x:Name="MyDie2" Height="99" Margin="418,150,275,270" VerticalAlignment="Top" Width="99">
+        <Image x:Name="MyDie2" Height="99" Margin="278,150,423,0" VerticalAlignment="Top" Width="99">
             <Image.Source>
                 <BitmapImage UriSource="images/D0.png"/>
             </Image.Source>
         </Image>
-        <Button x:Name="Higher" Content="Higher" VerticalAlignment="Bottom" Width="119" Margin="265,0,408,124" Height="70" FontSize="24" Click="Higher_Click"/>
-        <Button x:Name="Lower" Content="Lower" VerticalAlignment="Bottom" Width="119" Margin="408,0,265,124" Height="70" FontSize="24" Click="Lower_Click"/>
-        <Label x:Name="Money" Content="Money" Margin="269,0,412,33" VerticalAlignment="Bottom" Height="70" Width="119" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Gray" BorderThickness="1"/>
-        <TextBox x:Name="BetMoney" Height="70" TextWrapping="Wrap" Text="BetMoney" VerticalAlignment="Bottom" Width="119" Margin="408,0,265,33" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Gray" BorderThickness="1" MaxLength="4" PreviewTextInput="NumericOnly" DataObject.Pasting="BetMoneyPasting"/>
+        <!--<CheckBox Content="English" Margin="680,10,30,0" VerticalAlignment="Top" Height="27" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>-->
+        <Button x:Name="Higher" Content="{x:Static p:Resources.Higher}" VerticalAlignment="Bottom" Width="119" Margin="124,0,557,124" Height="70" FontSize="24" Click="Higher_Click"/>
+        <Button x:Name="Lower" Content="{x:Static p:Resources.Lower}" VerticalAlignment="Bottom" Width="119" Margin="267,0,414,124" Height="70" FontSize="24" Click="Lower_Click"/>
+        <Label x:Name="Money" Content="Money" Margin="124,0,557,33" VerticalAlignment="Bottom" Height="70" Width="119" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Gray" BorderThickness="1"/>
+        <TextBox x:Name="BetMoney" Height="70" TextWrapping="Wrap" Text="BetMoney" VerticalAlignment="Bottom" Width="119" Margin="267,0,414,33" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Gray" BorderThickness="1" MaxLength="4" PreviewTextInput="NumericOnly" DataObject.Pasting="BetMoneyPasting"/>
+        <ListView x:Name="ResultSpace" Height="507" Margin="525,0,53,33" VerticalAlignment="Bottom" Width="222">
+            <ListView.View>
+                <GridView AllowsColumnReorder="False">
+                    <GridViewColumn Header="{x:Static p:Resources.Name}" Width="110" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="{x:Static p:Resources.Result}" Width="110" DisplayMemberBinding="{Binding Result}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
 
     </Grid>
 </Window>
