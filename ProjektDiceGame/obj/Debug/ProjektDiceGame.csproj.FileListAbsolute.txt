@@ -22,5 +22,8 @@ C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDic
 C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\ProjektDiceGame.Properties.Resources.pl-PL.resources
 C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\en\ProjektDiceGame.resources.dll
 C:\Users\Akcjomat\Source\Repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\pl-PL\ProjektDiceGame.resources.dll
+<<<<<<< HEAD
 C:\Users\Akcjomat\source\repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\NameTyper.g.cs
 C:\Users\Akcjomat\source\repos\DiceGame-WPF\ProjektDiceGame\obj\Debug\NameTyper.baml
+=======
+>>>>>>> 69bd903f2e7bab3dea2b9177e5c2d02f14cca6ea

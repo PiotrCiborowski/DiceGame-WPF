@@ -33,14 +33,13 @@
         <Button x:Name="Lower" Content="{x:Static p:Resources.Lower}" VerticalAlignment="Bottom" Width="119" Margin="267,0,414,124" Height="70" FontSize="24" Click="Lower_Click"/>
         <Label x:Name="Money" Content="Money" Margin="124,0,557,33" VerticalAlignment="Bottom" Height="70" Width="119" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Gray" BorderThickness="1"/>
         <TextBox x:Name="BetMoney" Height="70" TextWrapping="Wrap" Text="BetMoney" VerticalAlignment="Bottom" Width="119" Margin="267,0,414,33" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderBrush="Gray" BorderThickness="1" MaxLength="4" PreviewTextInput="NumericOnly" DataObject.Pasting="BetMoneyPasting"/>
-        <ListView x:Name="ResultSpace" Height="507" Margin="525,0,53,33" VerticalAlignment="Bottom" Width="222">
-            <ListView.View>
-                <GridView AllowsColumnReorder="False">
-                    <GridViewColumn Header="{x:Static p:Resources.Name}" Width="110" DisplayMemberBinding="{Binding Name}"/>
-                    <GridViewColumn Header="{x:Static p:Resources.Result}" Width="110" DisplayMemberBinding="{Binding Result}"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-
+            <ListView x:Name="ResultSpace" Height="507" Margin="525,0,53,33" VerticalAlignment="Bottom" Width="222">
+                <ListView.View>
+                    <GridView AllowsColumnReorder="False">
+                        <GridViewColumn Header="{x:Static p:Resources.Name}" Width="110" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="{x:Static p:Resources.Result}" Width="110" DisplayMemberBinding="{Binding Result}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
     </Grid>
 </Window>
